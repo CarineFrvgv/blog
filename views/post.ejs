@@ -10,23 +10,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar">
-        <a class="logo" href="/">Happy Place</a>
-        <!-- links -->
-        <ul class="nav-list">
-            <li></li><a class="nav-link" href="/">Home</a></li>
-            <li></li><a class="nav-link" href="/post">Posts</a></li>
-            <li></li><a class="nav-link" href="/signup">Sign Up</a></li>
-            <li></li><a class="nav-link" href="/login">Log In</a></li>
-        </ul>
-
-        <!-- hamburger -->
-        <div class="hamburger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-    </nav>
+    <%- include('layouts/navbar'); -%>
 
     <!-- main content -->
     
@@ -66,9 +50,7 @@
     </div> <!--  container -->
     
     <!-- footer -->
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
+    <%- include('layouts/footer'); -%>
 
     <script src="index.js"></script>
 </body>
