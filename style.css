@@ -5,17 +5,17 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(241, 241, 241);
 }
 
 header{ 
     border-bottom: 1px solid #32303d;
 }
 nav {
-    overflow: hidden;
+    /* overflow: hidden;
     position:fixed;
     top: 0;
-    width: 100%;
+    width: 100%; */
 
     display: flex;
     justify-content: space-around;
@@ -94,12 +94,11 @@ a:hover {
     text-transform: uppercase;
 }
 .container-posts{
-    
     display: flex;
     flex-direction: row;
     padding: 3.5rem;
     height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container-posts h2{
@@ -110,6 +109,10 @@ a:hover {
     padding: 5px;
 } 
 
+.s{
+    display: block;
+}
+
 .see-more{
     color: black;
     align-self: center;
@@ -117,13 +120,17 @@ a:hover {
 }
 
 .card{
-    border-radius: 7px;
     margin: 10px;
     background-color: #fff;
     padding: 20px 25px;
     flex: 1;
-    height: 100%;
+    height: 100%; 
 }
+
+.a{
+   margin-top: 10vh ;
+}
+
 .div-img{
     background-size: cover;
     background-color: #aaa;
@@ -131,6 +138,11 @@ a:hover {
     width: 100%;
     height: 200px;
     padding: 20px;
+}
+
+.d{
+    width: 100%;
+    height: 100vh;
 }
 
 /* footer */
@@ -199,6 +211,11 @@ a:hover {
 
     .card{
         margin-bottom: 2rem;
+    }
+
+    .d{
+        width: 100%;
+        height: 200px;
     }
 
 
